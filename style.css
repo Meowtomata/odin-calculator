@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-basis: 480px;
+    height: 480px;
+    background-color: aquamarine;
+}
+
+.calculator-column {
+    background-color: cornflowerblue;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.calculator-button {
+    flex: 1;
+    background-color: peru;
+    border: solid black 0.1px;
+}
+
